@@ -1,0 +1,10 @@
+{"compile":[
+["/Users/tobashunsuke/Development/NimTutorial/nimcache/hello.c", "clang -c  -w  -I/usr/local/Cellar/nim/0.18.0_1/nim/lib -o /Users/tobashunsuke/Development/NimTutorial/nimcache/hello.o /Users/tobashunsuke/Development/NimTutorial/nimcache/hello.c"],
+["/Users/tobashunsuke/Development/NimTutorial/nimcache/stdlib_system.c", "clang -c  -w  -I/usr/local/Cellar/nim/0.18.0_1/nim/lib -o /Users/tobashunsuke/Development/NimTutorial/nimcache/stdlib_system.o /Users/tobashunsuke/Development/NimTutorial/nimcache/stdlib_system.c"]
+],
+"link":[
+"/Users/tobashunsuke/Development/NimTutorial/nimcache/hello.o",
+"/Users/tobashunsuke/Development/NimTutorial/nimcache/stdlib_system.o"
+],
+"linkcmd": "clang   -o /Users/tobashunsuke/Development/NimTutorial/hello  /Users/tobashunsuke/Development/NimTutorial/nimcache/hello.o /Users/tobashunsuke/Development/NimTutorial/nimcache/stdlib_system.o    -ldl"
+}
