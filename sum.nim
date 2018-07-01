@@ -7,9 +7,15 @@ echo sum(x = 3, y = 4)
 var
   z: int
 
-proc sum(x, y: int, z: var int) =
+proc sum1(x, y: int, z: var int) =
   z = x + y
 
-sum(5, 6, z)
+sum1(5, 6, z)
 
 echo z
+
+proc sum2(x, y: int): (int, int) =
+  (x + y, x + y)
+
+let (anw1, anw2) = sum2(1, 2)
+echo anw1, anw2
